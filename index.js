@@ -42,6 +42,7 @@ function onAddTodo() {
 }
 
 addTodoButton.onclick = function() {
+    event.preventDefault();
     onAddTodo();
 };
 
